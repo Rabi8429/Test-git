@@ -61,7 +61,7 @@ include "spring-boot-project:spring-boot-autoconfigure"
 include "spring-boot-project:spring-boot-actuator"
 include "spring-boot-project:spring-boot-actuator-autoconfigure"
 include "spring-boot-project:spring-boot-docker-composegit "
-
+include "spring-boot"
 include "spring-boot-project:spring-boot-docs"
 include "spring-boot-project:spring-boot-test"
 include "spring-boot-project:spring-boot-testcontainers"
@@ -82,3 +82,6 @@ file("${rootDir}/spring-boot-project/spring-boot-starters").eachDirMatch(~/sprin
 file("${rootDir}/spring-boot-tests/spring-boot-smoke-tests").eachDirMatch(~/spring-boot-smoke-test.*/) {
 	include "spring-boot-tests:spring-boot-smoke-tests:${it.name}"
 }
+
+
+{This spring-boot application}
