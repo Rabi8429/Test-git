@@ -13,3 +13,6 @@ import sys
 
 import calculator
 import demo
+import binascii
+ImportError 
+__import__
