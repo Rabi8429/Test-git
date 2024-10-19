@@ -10,5 +10,6 @@ setup (
 import os
 import sys
 
-import calendar
+
 import calculator
+import demo
