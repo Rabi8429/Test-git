@@ -10,9 +10,14 @@ setup (
 import os
 import sys
 
+<<<<<<< HEAD
 
 import calculator
 import demo
 import binascii
 ImportError 
 __import__
+=======
+import calendar
+import calculator
+>>>>>>> parent of 4dbebe1 (new edit code)
